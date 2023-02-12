@@ -1,0 +1,70 @@
+Hollow Rectangle
+*****
+*   *
+*   *
+*****
+inverted rotated half Pyramid
+   *
+  **
+ ***
+****
+
+inverted half pyramid with numbers
+12345
+1234
+123
+12
+1
+
+inverted half pyramid with numbers
+12345
+1234
+123
+12
+1
+
+floyds triangle
+1 
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+zero one triangle
+1
+01
+101
+0101
+10101
+
+butterfly pattern
+*      *
+**    **
+***  ***
+********
+********
+***  ***
+**    **
+*      *
+
+solid rhombus
+    *****
+   *****
+  *****
+ *****
+*****
+
+hollow rhombus
+    *****
+   *   *
+  *   *
+ *   *
+*****
+
+diamond
+  *
+ ***
+*****
+*****
+ ***
+  *
