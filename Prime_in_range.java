@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Prime_in_range {
 
-    public static boolean isPrime(int n){
+    public static boolean isPrime(int n){     //In this code isPrime function work as helper function
         if(n==2){
             return true;
         }
@@ -16,7 +16,7 @@ public class Prime_in_range {
 
     public static void PrimeInRange(int n){
         for(int i = 2; i<=n; i++){
-            if(isPrime(i) == true){
+            if(isPrime(i) == true){       //Helper Function
                 System.out.print(i +"  ");
             }
         }
