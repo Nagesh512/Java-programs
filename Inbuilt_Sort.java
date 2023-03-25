@@ -28,6 +28,7 @@ public class Inbuilt_Sort {
 
         // Arrays.sort(arr1, Collections.reverseOrder());
         Arrays.sort(arr1, 2, 5,  Collections.reverseOrder());
+        // (array, start index, end index, Collections.reverseOrder())
         Display(arr1);
         
 

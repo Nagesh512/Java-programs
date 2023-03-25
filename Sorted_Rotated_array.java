@@ -43,7 +43,8 @@ public class Sorted_Rotated_array {
 
         public static void main(String args[]) {
             int nums[] = { 4, 5, 6, 7, 9, 1, 2 };
-            int target = 4;
+            // int nums[] = {5, 4, 3, 9, 8, 7, 6 };
+            int target = 6;
             int index = search(nums, 0, 0,target );
             
             if(index == -1){
