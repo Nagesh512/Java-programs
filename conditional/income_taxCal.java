@@ -1,21 +1,27 @@
 import java.util.*;
+
 public class income_taxCal {
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);
-        int income = sc.nextInt();
-        int tax;
 
-        if(income <= 500000){
-           tax = 0;
+        System.out.println("Eneter your salary");
+        int income = sc.nextInt();
+
+        float tax;
+
+        if (income < 500000) {
+            tax = 0;
+        } else if (income > 500000 && income < 1000000) {
+            int tax_on_amount = income - 500000;
+            tax = tax_on_amount * 0.2f;
+        } else {
+            int tax_on_amount = income - 1000000;
+            tax = tax_on_amount * 0.3f + 500000 * 0.2f;
+
         }
-        else if(income > 500000 && income <= 1000000){
-           tax = (int) (income * 0.2);
-        }
-        else {
-            tax = (int) (income * 0.3);
-        }
-        System.out.println("Your tax is = " + tax);
-    
+
+        System.out.println("Tax amount to be paid is " + tax);
+
     }
 }
